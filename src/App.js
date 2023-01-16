@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import PartOne from './components/PartOne';
 
 function App() {
-    return(
-        <div>
-            <h1>Hello React.</h1>
-        </div>
+    return ( <
+        div className = "App" >
+        <
+        h1 > Hello React. < /h1> <
+        PartOne / >
+        <
+        /div>
     )
 }
 
